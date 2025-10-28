@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gaurav.dev</title>
+    <meta
+      name="description"
+      content="full-stack developer. building cool stuff on the web."
+    />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Nav -->
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="#" class="logo">
+          <span class="spider-dot"></span>
+          <span>gaurav</span>
+        </a>
+        <div class="nav-links">
+          <a href="#work">work</a>
+          <a href="#about">about</a>
+          <a href="#contact">contact</a>
+        </div>
+        <button class="menu-btn" id="menuBtn">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#work">work</a>
+      <a href="#about">about</a>
+      <a href="#contact">contact</a>
+      <div class="mobile-social">
+        <a href="https://github.com/gaurav" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://linkedin.com/in/gaurav" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="mailto:hello@gaurav.dev"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-badge">
+          <div class="spider-icon"></div>
+          <span>available for work</span>
+        </div>
+        <h1 class="hero-title">
+          hey, i'm <span class="highlight">gaurav</span>
+        </h1>
+        <p class="hero-subtitle">
+          <span id="typed"></span>
+        </p>
+        <p class="hero-desc">
+          full-stack developer building clean, functional web experiences.
+          <br />currently working on cool projects with react, node.js & more.
+        </p>
+        <div class="hero-cta">
+          <a href="#work" class="btn btn-primary">
+            <span>see my work</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-ghost">
+            <span>get in touch</span>
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-num">50+</div>
+            <div class="stat-label">projects</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">5+</div>
+            <div class="stat-label">years exp</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">100%</div>
+            <div class="stat-label">coffee powered</div>
+          </div>
+        </div>
+      </div>
+      <div class="spider-web"></div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section work">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// featured projects</span>
+          <h2>stuff i've built</h2>
+        </div>
+        <div class="work-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-img">
+              <img
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='500'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%23ef4444'/%3E%3Cstop offset='100%25' stop-color='%23dc2626'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23g1)' width='800' height='500'/%3E%3Ctext x='50%25' y='50%25' fill='white' font-size='48' font-family='sans-serif' text-anchor='middle' dominant-baseline='middle' opacity='0.9'%3Ecompera%3C/text%3E%3C/svg%3E"
+                alt="Compera"
+              />
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span>react</span>
+                <span>node.js</span>
+                <span>mongodb</span>
+              </div>
+              <h3>compera</h3>
+              <p>
+                price comparison platform for food & travel. helping users find
+                the best deals with real-time data.
+              </p>
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <span>view project</span>
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#" class="icon-link">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-img">
+              <img
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='500'%3E%3Cdefs%3E%3ClinearGradient id='g2' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%2306b6d4'/%3E%3Cstop offset='100%25' stop-color='%230891b2'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23g2)' width='800' height='500'/%3E%3Ctext x='50%25' y='50%25' fill='white' font-size='42' font-family='sans-serif' text-anchor='middle' dominant-baseline='middle' opacity='0.9'%3Epainsense ai%3C/text%3E%3C/svg%3E"
+                alt="PainSense AI"
+              />
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span>python</span>
+                <span>tensorflow</span>
+                <span>flask</span>
+              </div>
+              <h3>painsense ai</h3>
+              <p>
+                ml-powered system to detect and quantify pain signals. research
+                project with real-world impact.
+              </p>
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <span>view project</span>
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#" class="icon-link">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-img">
+              <img
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='500'%3E%3Cdefs%3E%3ClinearGradient id='g3' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%2310b981'/%3E%3Cstop offset='100%25' stop-color='%23059669'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23g3)' width='800' height='500'/%3E%3Ctext x='50%25' y='48%25' fill='white' font-size='40' font-family='sans-serif' text-anchor='middle' dominant-baseline='middle' opacity='0.9'%3Efake review%3C/text%3E%3Ctext x='50%25' y='58%25' fill='white' font-size='40' font-family='sans-serif' text-anchor='middle' dominant-baseline='middle' opacity='0.9'%3Edetection%3C/text%3E%3C/svg%3E"
+                alt="Fake Review Detection"
+              />
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span>python</span>
+                <span>nlp</span>
+                <span>docker</span>
+              </div>
+              <h3>fake review detector</h3>
+              <p>
+                nlp system to identify suspicious reviews. helping maintain
+                trust in online marketplaces.
+              </p>
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <span>view project</span>
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#" class="icon-link">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card">
+            <div class="project-img">
+              <img
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='500'%3E%3Cdefs%3E%3ClinearGradient id='g4' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%23f59e0b'/%3E%3Cstop offset='100%25' stop-color='%23d97706'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23g4)' width='800' height='500'/%3E%3Ctext x='50%25' y='50%25' fill='white' font-size='44' font-family='sans-serif' text-anchor='middle' dominant-baseline='middle' opacity='0.9'%3Ejobs portal%3C/text%3E%3C/svg%3E"
+                alt="Jobs Portal"
+              />
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span>react</span>
+                <span>postgresql</span>
+                <span>jwt</span>
+              </div>
+              <h3>jobs portal</h3>
+              <p>
+                full-stack job platform with auth, search filters, and
+                application tracking. clean ui/ux.
+              </p>
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <span>view project</span>
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#" class="icon-link">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-content">
+            <span class="section-tag">// a bit about me</span>
+            <h2>full-stack dev with a mission</h2>
+            <p>
+              yo! i'm gaurav, a developer who loves building things for the web.
+              started coding in college and haven't stopped since. founded
+              compera, a startup focused on price comparison, and learned a ton
+              along the way.
+            </p>
+            <p>
+              these days i'm all about clean code, modern tech stacks, and
+              solving real problems. whether it's react, node, python, or
+              something new—i'm always down to learn and build.
+            </p>
+            <div class="tech-stack">
+              <div class="tech-category">
+                <h4>frontend</h4>
+                <div class="tech-list">
+                  <span>react</span>
+                  <span>javascript</span>
+                  <span>html/css</span>
+                  <span>tailwind</span>
+                </div>
+              </div>
+              <div class="tech-category">
+                <h4>backend</h4>
+                <div class="tech-list">
+                  <span>node.js</span>
+                  <span>express</span>
+                  <span>mongodb</span>
+                  <span>postgresql</span>
+                </div>
+              </div>
+              <div class="tech-category">
+                <h4>tools</h4>
+                <div class="tech-list">
+                  <span>git</span>
+                  <span>docker</span>
+                  <span>figma</span>
+                  <span>vs code</span>
+                </div>
+              </div>
+            </div>
+            <div class="about-quote">
+              "with great code comes great responsibility" — some wise spider
+            </div>
+          </div>
+          <div class="about-visual">
+            <div class="profile-card">
+              <div class="profile-img">
+                <img src="spidey.jpeg" alt="Gaurav" />
+              </div>
+              <div class="profile-info">
+                <h3>gaurav</h3>
+                <p>full-stack developer</p>
+                <div class="social-links">
+                  <a href="https://github.com/gaurav" target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a href="https://linkedin.com/in/gaurav" target="_blank"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a href="mailto:hello@gaurav.dev"
+                    ><i class="fas fa-envelope"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="contact-content">
+          <span class="section-tag">// let's connect</span>
+          <h2>got a project? let's talk.</h2>
+          <p>
+            whether it's a cool idea, a job opportunity, or just to say hi— my
+            inbox is always open. i'll try my best to get back to you!
+          </p>
+          <div class="contact-methods">
+            <a href="mailto:hello@gaurav.dev" class="contact-method">
+              <i class="fas fa-envelope"></i>
+              <span>hello@gaurav.dev</span>
+            </a>
+            <a
+              href="https://linkedin.com/in/gaurav"
+              target="_blank"
+              class="contact-method"
+            >
+              <i class="fab fa-linkedin"></i>
+              <span>linkedin.com/in/gaurav</span>
+            </a>
+            <a
+              href="https://github.com/gaurav"
+              target="_blank"
+              class="contact-method"
+            >
+              <i class="fab fa-github"></i>
+              <span>github.com/gaurav</span>
+            </a>
+          </div>
+          <a href="/assets/Gaurav_Resume.pdf" download class="btn btn-primary">
+            <i class="fas fa-download"></i>
+            <span>download resume</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>© 2025 gaurav. built with care & coffee.</p>
+        <div class="footer-links">
+          <a href="https://github.com/gaurav" target="_blank">github</a>
+          <a href="https://linkedin.com/in/gaurav" target="_blank">linkedin</a>
+          <a href="mailto:hello@gaurav.dev">email</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

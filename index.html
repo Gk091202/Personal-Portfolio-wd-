@@ -3,6 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Security Headers -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' https:; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:; connect-src 'self' https:;"
+    />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+
     <title>gaurav.dev</title>
     <meta
       name="description"
@@ -19,6 +30,9 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
 
     <link rel="stylesheet" href="style.css" />
@@ -49,10 +63,16 @@
       <a href="#about">about</a>
       <a href="#contact">contact</a>
       <div class="mobile-social">
-        <a href="https://github.com/gaurav" target="_blank"
+        <a
+          href="https://github.com/gaurav"
+          target="_blank"
+          rel="noopener noreferrer"
           ><i class="fab fa-github"></i
         ></a>
-        <a href="https://linkedin.com/in/gaurav" target="_blank"
+        <a
+          href="https://linkedin.com/in/gaurav"
+          target="_blank"
+          rel="noopener noreferrer"
           ><i class="fab fa-linkedin"></i
         ></a>
         <a href="mailto:hello@gaurav.dev"><i class="fas fa-envelope"></i></a>
@@ -298,10 +318,16 @@
                 <h3>gaurav</h3>
                 <p>full-stack developer</p>
                 <div class="social-links">
-                  <a href="https://github.com/gaurav" target="_blank"
+                  <a
+                    href="https://github.com/gaurav"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     ><i class="fab fa-github"></i
                   ></a>
-                  <a href="https://linkedin.com/in/gaurav" target="_blank"
+                  <a
+                    href="https://linkedin.com/in/gaurav"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     ><i class="fab fa-linkedin"></i
                   ></a>
                   <a href="mailto:hello@gaurav.dev"
@@ -333,6 +359,7 @@
             <a
               href="https://linkedin.com/in/gaurav"
               target="_blank"
+              rel="noopener noreferrer"
               class="contact-method"
             >
               <i class="fab fa-linkedin"></i>
@@ -341,6 +368,7 @@
             <a
               href="https://github.com/gaurav"
               target="_blank"
+              rel="noopener noreferrer"
               class="contact-method"
             >
               <i class="fab fa-github"></i>
@@ -360,15 +388,30 @@
       <div class="container">
         <p>© 2025 gaurav. built with care & coffee.</p>
         <div class="footer-links">
-          <a href="https://github.com/gaurav" target="_blank">github</a>
-          <a href="https://linkedin.com/in/gaurav" target="_blank">linkedin</a>
+          <a
+            href="https://github.com/gaurav"
+            target="_blank"
+            rel="noopener noreferrer"
+            >github</a
+          >
+          <a
+            href="https://linkedin.com/in/gaurav"
+            target="_blank"
+            rel="noopener noreferrer"
+            >linkedin</a
+          >
           <a href="mailto:hello@gaurav.dev">email</a>
         </div>
       </div>
     </footer>
 
     <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"
+      integrity="sha512-T+V3o6qYFWTyL/4eKa3lnlUTL5bkHqQ5EfwIE8ltTSuQIVEwCGIr7TGLxBuCGU3nN0xFfcP6+UJkq5fqQ8A4oA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="script.js"></script>
   </body>
 </html>
